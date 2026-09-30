@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dhanu Shree's accessible personal portfolio showcasing web development projects, achievements, authorship and skills.">
+    <meta name="keywords" content="Dhanu Shree, B.Tech IT, web development, HTML, CSS, JavaScript, portfolio, world record holder, author">
+    <meta name="author" content="Dhanu Shree">
+    <title>Dhanu Shree | IT Student & Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="Dhanu Shree home">Dhanu<span>Shree</span></a>
+
+        <button class="menu-toggle" type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation">
+            <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+            <div>
+                <p class="eyebrow">B.Tech IT Student • Creator • Learner</p>
+                <h1 id="hero-title">Still learning.<br><span>Still building.</span></h1>
+                <p class="hero-text">
+                    Hi, I'm <strong>Dhanu Shree</strong>, a second-year Information Technology
+                    student passionate about web development, creative technology and building
+                    useful digital experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button primary" href="projects.html">View My Projects</a>
+                    <a class="button secondary" href="contact.html">Contact Me</a>
+                </div>
+            </div>
+
+            <aside class="achievement-card" aria-labelledby="achievement-title">
+                <p class="card-label">A little more about me</p>
+                <h2 id="achievement-title">Dream. Create. Achieve.</h2>
+                <ul class="achievement-list">
+                    <li><strong>World Record Holder</strong><span>Recognised for an achievement that made me aim higher.</span></li>
+                    <li><strong>Author</strong><span>Author of a book and a believer in expressing ideas through words.</span></li>
+                    <li><strong>IT Student</strong><span>Exploring programming, web technologies and problem solving.</span></li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <section class="section" aria-labelledby="highlights-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Highlights</p>
+                <h2 id="highlights-title">What defines my journey</h2>
+            </div>
+
+            <div class="cards three-columns">
+                <article class="info-card">
+                    <div class="icon" aria-hidden="true">💻</div>
+                    <h3>Web Development</h3>
+                    <p>I build responsive and user-friendly websites using HTML, CSS and JavaScript.</p>
+                </article>
+
+                <article class="info-card">
+                    <div class="icon" aria-hidden="true">🏆</div>
+                    <h3>World Record Holder</h3>
+                    <p>My record achievement is one of the milestones that motivates me to keep challenging myself.</p>
+                </article>
+
+                <article class="info-card">
+                    <div class="icon" aria-hidden="true">📖</div>
+                    <h3>Author</h3>
+                    <p>I am also an author, using writing as another way to turn ideas and experiences into something meaningful.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section soft-section" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Skills</p>
+                <h2 id="skills-title">Technologies I'm learning</h2>
+            </div>
+
+            <ul class="skill-list" aria-label="Technical skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>SQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" aria-labelledby="cta-title">
+        <div class="container cta">
+            <div>
+                <p class="eyebrow">Let's connect</p>
+                <h2 id="cta-title">Have an idea? Let's build something useful.</h2>
+            </div>
+            <a class="button primary" href="contact.html">Get in Touch</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; 2026 Dhanu Shree. All rights reserved.</p>
+        <p>Built with semantic HTML5, accessibility and clean design.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
